@@ -2,7 +2,7 @@ function generateProducts() {
   const productList = document.getElementById('product-list');
 
   // Загрузка продуктов из внешнего JSON файла
-  fetch('products.json')
+  fetch('./products.json')
       .then(response => response.json())
       .then(products => {
           products.forEach(product => {
