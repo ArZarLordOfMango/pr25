@@ -1,6 +1,6 @@
 [
   { 
-      "image": "product1.jpg",
+      "image": "https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Consumable/Drinks/alebottle.rsi/icon.png",
       "name": "Продукт 1",
       "price": "$19.99"
   },
