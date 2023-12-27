@@ -1,7 +1,6 @@
 function generateProducts() {
   const productList = document.getElementById('product-list');
 
-  // Загрузка продуктов из внешнего JSON файла
   fetch('./products.json')
       .then(response => response.json())
       .then(products => {
@@ -22,11 +21,9 @@ function generateProducts() {
       .catch(error => console.error('Error loading products:', error));
 }
 
-// Функция прокрутки продуктов
 function scrollProducts() {
   const productList = document.getElementById('product-list');
   productList.scrollBy(200, 0);
 }
 
-// Вызываем генерацию продуктов при загрузке страницы
 window.onload = generateProducts;
