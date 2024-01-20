@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8b0000;
+  padding: 5px;
+  text-align: center;
+}
+
+img {
+  width: 90px; 
+  height: auto;
+}
+
+.logo-img {
+  width: 250px; 
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.product {
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  margin: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8b0000;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.youtube-button {
+  color: #201f1f63;
+  text-decoration: none;
+  background-color: #1f1f1f63;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  width: 150px;
+  cursor: pointer;
+}
+
+.youtube-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.youtube-button:hover::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
